@@ -1,0 +1,109 @@
+{
+  "hash": "c5c77a81",
+  "configHash": "dfa2f7b1",
+  "lockfileHash": "a6e276a9",
+  "browserHash": "9c54fbf7",
+  "optimized": {
+    "react": {
+      "src": "../../react/index.js",
+      "file": "react.js",
+      "fileHash": "542c946a",
+      "needsInterop": true
+    },
+    "react-dom": {
+      "src": "../../react-dom/index.js",
+      "file": "react-dom.js",
+      "fileHash": "d523b070",
+      "needsInterop": true
+    },
+    "react/jsx-dev-runtime": {
+      "src": "../../react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "342de743",
+      "needsInterop": true
+    },
+    "react/jsx-runtime": {
+      "src": "../../react/jsx-runtime.js",
+      "file": "react_jsx-runtime.js",
+      "fileHash": "1be020dc",
+      "needsInterop": true
+    },
+    "@heroicons/react/24/outline": {
+      "src": "../../@heroicons/react/24/outline/esm/index.js",
+      "file": "@heroicons_react_24_outline.js",
+      "fileHash": "2f33e14a",
+      "needsInterop": false
+    },
+    "@heroicons/react/24/solid": {
+      "src": "../../@heroicons/react/24/solid/esm/index.js",
+      "file": "@heroicons_react_24_solid.js",
+      "fileHash": "814806cf",
+      "needsInterop": false
+    },
+    "axios": {
+      "src": "../../axios/index.js",
+      "file": "axios.js",
+      "fileHash": "56a23e2e",
+      "needsInterop": false
+    },
+    "react-dom/client": {
+      "src": "../../react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "464420ab",
+      "needsInterop": true
+    },
+    "react-quill": {
+      "src": "../../react-quill/lib/index.js",
+      "file": "react-quill.js",
+      "fileHash": "7200bf65",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../react-router-dom/dist/index.mjs",
+      "file": "react-router-dom.js",
+      "fileHash": "88c1efe3",
+      "needsInterop": false
+    },
+    "react-select": {
+      "src": "../../react-select/dist/react-select.esm.js",
+      "file": "react-select.js",
+      "fileHash": "f61f5714",
+      "needsInterop": false
+    },
+    "react-select/animated": {
+      "src": "../../react-select/animated/dist/react-select-animated.esm.js",
+      "file": "react-select_animated.js",
+      "fileHash": "d43ca732",
+      "needsInterop": false
+    },
+    "socket.io-client": {
+      "src": "../../socket.io-client/build/esm/index.js",
+      "file": "socket__io-client.js",
+      "fileHash": "64d859aa",
+      "needsInterop": false
+    },
+    "react-select/async": {
+      "src": "../../react-select/async/dist/react-select-async.esm.js",
+      "file": "react-select_async.js",
+      "fileHash": "bd507028",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-BGWATU5A": {
+      "file": "chunk-BGWATU5A.js"
+    },
+    "chunk-EIMOUWVW": {
+      "file": "chunk-EIMOUWVW.js"
+    },
+    "chunk-NXESFFTV": {
+      "file": "chunk-NXESFFTV.js"
+    },
+    "chunk-DRWLMN53": {
+      "file": "chunk-DRWLMN53.js"
+    },
+    "chunk-G3PMV62Z": {
+      "file": "chunk-G3PMV62Z.js"
+    }
+  }
+}
