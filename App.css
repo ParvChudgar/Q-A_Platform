@@ -1,0 +1,78 @@
+/* Base layout */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Logo styles */
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+/* Logo animation */
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* Card and doc styling */
+.card {
+  padding: 2em;
+}
+.read-the-docs {
+  color: #888;
+}
+
+/* Rich Text Editor (Quill) Styles */
+.ql-container {
+  background-color: #1a202c; /* match dark background */
+  border: 1px solid #4a5568;
+  border-radius: 0 0 8px 8px;
+  color: white;
+}
+
+.ql-toolbar {
+  background-color: #2d3748;
+  border: 1px solid #4a5568;
+  border-radius: 8px 8px 0 0;
+  color: white;
+}
+
+.ql-editor {
+  min-height: 150px;
+  color: white;
+  background-color: #1a202c;
+  padding: 1rem;
+  border-radius: 0 0 8px 8px;
+  font-size: 1rem;
+}
+
+/* Quill focus outline fix */
+.ql-container.ql-snow {
+  border: none;
+}
+
+/* Optional: tooltip fix for Quill */
+.ql-tooltip {
+  z-index: 9999;
+}

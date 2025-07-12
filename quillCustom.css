@@ -1,0 +1,24 @@
+.ql-container {
+  min-height: 250px;
+  font-size: 16px;
+  background-color: #1a202c; /* match your theme */
+  color: white;
+}
+
+.ql-editor {
+  min-height: 200px;
+  color: white;
+}
+
+.ql-toolbar {
+  background-color: #2d3748;
+  border: 1px solid #4a5568;
+}
+
+.ql-toolbar button {
+  color: white;
+}
+
+.ql-toolbar button:hover {
+  color: #60a5fa;
+}

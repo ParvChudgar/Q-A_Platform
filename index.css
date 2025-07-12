@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-primary text-light-gray;
+}
+
+/* Custom styles for Quill editor to match our dark theme */
+.ql-toolbar {
+  @apply rounded-t-lg border-secondary !important;
+}
+.ql-container {
+  @apply rounded-b-lg border-secondary !important;
+  min-height: 200px;
+}
+.ql-editor {
+  @apply text-light-gray;
+}
+.ql-snow .ql-stroke {
+  stroke: #a0aec0; /* Lighter stroke for icons */
+}
+.ql-snow .ql-picker-label {
+    color: #a0aec0 !important;
+}
+
+/* Styling for the content rendered from Quill */
+.prose {
+    color: inherit;
+}
+.prose a {
+    color: #63b3ed;
+}
+.prose a:hover {
+    color: #90cdf4;
+}
